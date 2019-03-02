@@ -22,6 +22,9 @@ img {
     vertical-align: baseline;
 }
 
+.event-partner-logo a img {
+	width: 70%;
+}
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
@@ -778,7 +781,7 @@ a:hover, a:active {
     font-weight: bold;
     line-height: 1;
     color: #232127;
-    background: url("images/next-events-header-bg.png") no-repeat center;
+   
     text-align: center;
 }
 
@@ -992,6 +995,9 @@ a:hover, a:active {
 
 .events-partners .entry-title {
     color: #fff;
+	font-size: 40px;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .events-partners-logos .event-partner-logo {
@@ -2192,11 +2198,16 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .entry-footer h4 {
-	color: #d4d4d4;
+	color: #e1e1e1;
+	background-color: rgba(0, 0, 0, 0.22);
+	padding: 20px;
 }
 
 .entry-footer p {
 	color: #dddddd;
+	margin-top: 20px;
+		background-color: rgba(0, 0, 0, 0.22);
+	padding: 20px;
 }
 
 .col-12 p {
